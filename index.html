@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagnez de l'Argent en Ligne - 100+ Sites Fiables 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .dashboard-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            color: #11998e;
+            padding: 15px 25px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            border: none;
+            font-size: 1em;
+        }
+
+        .dashboard-toggle:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+        }
+
+        .dashboard-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 2000;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .dashboard-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dashboard-content {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 1100px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .dashboard-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #f44336;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5em;
+            transition: all 0.3s;
+        }
+
+        .dashboard-close:hover {
+            transform: rotate(90deg);
+        }
+
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .dashboard-header h2 {
+            color: #11998e;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .stat-card h3 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .table-container {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 20px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        tbody tr {
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tbody tr:hover {
+            background: #f0f0f0;
+        }
+
+        .click-count {
+            background: #4caf50;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .export-btn {
+            background: #2196f3;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        .export-btn:hover {
+            background: #1976d2;
+            transform: translateY(-2px);
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            animation: fadeInDown 1s;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .hero-box {
+            background: rgba(255,255,255,0.95);
+            color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.4);
+            animation: slideUp 1s;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-box h2 {
+            color: #11998e;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .hero-benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .benefit-item {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-10px) scale(1.05);
+        }
+
+        .benefit-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .benefit-item h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .cta-section {
+            text-align: center;
+            margin: 30px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.4);
+        }
+
+        .cta-section h3 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 20px 50px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(17, 153, 142, 0.4);
+            transition: all 0.3s;
+            animation: bounce 2s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .cta-button:hover {
+            transform: scale(1.1) translateY(-5px);
+        }
+
+        .stats-highlight {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .stat-highlight .number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #11998e;
+        }
+
+        .stat-highlight .label {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1em;
+            backdrop-filter: blur(10px);
+            font-weight: 600;
+        }
+
+        .category-btn:hover, .category-btn.active {
+            background: white;
+            color: #11998e;
+            transform: translateY(-3px);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+        }
+
+        .card:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .card-icon {
+            font-size: 3em;
+        }
+
+        .card-title-section h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .card-category {
+            display: inline-block;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .earning-badge {
+            background: #ffd700;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .features ul {
+            list-style: none;
+        }
+
+        .features li {
+            padding: 5px 0;
+            padding-left: 25px;
+            position: relative;
+            font-size: 0.9em;
+        }
+
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #11998e;
+            font-weight: bold;
+        }
+
+        .card-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 14px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .card-link:hover {
+            transform: scale(1.05);
+        }
+
+        .trust-badge {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <button class="dashboard-toggle" onclick="toggleDashboard()">📊 Tableau de Bord</button>
+
+    <div class="dashboard-modal" id="dashboardModal">
+        <div class="dashboard-content">
+            <button class="dashboard-close" onclick="toggleDashboard()">×</button>
+            <div class="dashboard-header">
+                <h2>📊 Tableau de Bord</h2>
+                <p>Suivez vos performances</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card"><h3 id="totalClicks">0</h3><p>Clics Totaux</p></div>
+                <div class="stat-card"><h3 id="todayClicks">0</h3><p>Aujourd'hui</p></div>
+                <div class="stat-card"><h3 id="topSite">-</h3><p>Top Site</p></div>
+                <div class="stat-card"><h3 id="avgConversion">0%</h3><p>Conversion</p></div>
+            </div>
+            <div class="table-container">
+                <h3 style="margin-bottom:20px;color:#333">Détails par Site</h3>
+                <table>
+                    <thead><tr><th>Site</th><th>Catégorie</th><th>Clics</th><th>Dernier Clic</th></tr></thead>
+                    <tbody id="statsBody"><tr><td colspan="4" style="text-align:center;padding:30px;color:#999">Aucune donnée</td></tr></tbody>
+                </table>
+                <button class="export-btn" onclick="exportData()">📥 Exporter CSV</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>💰 Gagnez de l'Argent Facilement !</h1>
+            <p style="font-size:1.5em;margin-top:10px">🚀 100+ Sites & Apps Gratuits</p>
+        </header>
+
+        <div class="hero-box">
+            <h2>🎁 Commencez Maintenant !</h2>
+            <div class="stats-highlight">
+                <div class="stat-highlight"><div class="number">500€+</div><div class="label">Par mois possible</div></div>
+                <div class="stat-highlight"><div class="number">100+</div><div class="label">Sites fiables</div></div>
+                <div class="stat-highlight"><div class="number">0€</div><div class="label">Gratuit</div></div>
+            </div>
+            <div class="hero-benefits">
+                <div class="benefit-item"><span class="benefit-icon">💳</span><h3>Cashback</h3><p>Jusqu'à 15% remboursé</p></div>
+                <div class="benefit-item"><span class="benefit-icon">🏦</span><h3>Primes</h3><p>150€ offerts</p></div>
+                <div class="benefit-item"><span class="benefit-icon">👟</span><h3>Marche</h3><p>Gagnez en marchant</p></div>
+                <div class="benefit-item"><span class="benefit-icon">📋</span><h3>Sondages</h3><p>200€/mois</p></div>
+            </div>
+            <div class="cta-section">
+                <h3>⚡ Commencez MAINTENANT !</h3>
+                <p>Inscrivez-vous gratuitement</p>
+                <a class="cta-button" onclick="document.getElementById('cardsContainer').scrollIntoView({behavior:'smooth'})">👇 Voir Tous Les Sites 👇</a>
+            </div>
+        </div>
+
+        <div class="categories">
+            <button class="category-btn active" onclick="filterCategory('tous')" data-category="tous">Tous</button>
+            <button class="category-btn" onclick="filterCategory('sondages')" data-category="sondages">📋 Sondages</button>
+            <button class="category-btn" onclick="filterCategory('cashback')" data-category="cashback">💳 Cashback</button>
+            <button class="category-btn" onclick="filterCategory('banque')" data-category="banque">🏦 Banques</button>
+            <button class="category-btn" onclick="filterCategory('marche')" data-category="marche">🚶 Marche</button>
+            <button class="category-btn" onclick="filterCategory('taches')" data-category="taches">⚡ Tâches</button>
+            <button class="category-btn" onclick="filterCategory('jeux')" data-category="jeux">🎮 Jeux</button>
+            <button class="category-btn" onclick="filterCategory('freelance')" data-category="freelance">💼 Freelance</button>
+            <button class="category-btn" onclick="filterCategory('investissement')" data-category="investissement">📈 Bourse</button>
+            <button class="category-btn" onclick="filterCategory('revente')" data-category="revente">📦 Revente</button>
+        </div>
+
+        <div class="grid" id="cardsContainer"></div>
+
+        <footer>
+            <p>💡 <strong>Astuce:</strong> Inscrivez-vous sur plusieurs sites!</p>
+            <p style="margin-top:15px">⭐ Tous ces sites sont gratuits et fiables ⭐</p>
+        </footer>
+    </div>
+
+    <script>
+        const sites = [
+            {cat:'sondages',icon:'📋',name:'Swagbucks',earning:'💵 200€/mois',desc:'Leader mondial sondages.',features:['Sondages quotidiens','Cashback','Vidéos','PayPal 5€'],trust:'✓ Depuis 2008',link:'https://www.swagbucks.com'},
+            {cat:'sondages',icon:'📝',name:'Toluna',earning:'💵 100-150€/mois',desc:'10M+ membres.',features:['Nombreux sondages','Produits gratuits','Bons Amazon','Retrait 10€'],trust:'✓ 10M+ membres',link:'https://fr.toluna.com'},
+            {cat:'cashback',icon:'💳',name:'iGraal',earning:'💵 300-500€/an',desc:'N°1 France 1700+ marchands.',features:['15% cashback','1700+ boutiques','Bonus 3€','Dès 20€'],trust:'✓ Leader FR',link:'https://fr.igraal.com'},
+            {cat:'cashback',icon:'🛍️',name:'Poulpeo',earning:'💵 200-400€/an',desc:'Cashback quotidien.',features:['2000+ sites','Codes promo','Extension','Dès 1€'],trust:'✓ Sans minimum',link:'https://www.poulpeo.com'},
+            {cat:'cashback',icon:'🏪',name:'Shopmium',earning:'💵 50-100€/mois',desc:'Cashback courses.',features:['Produits quotidiens','Remboursement total','Nouveaux produits','Virement'],trust:'✓ 5M+ télécharg',link:'https://www.shopmium.com'},
+            {cat:'cashback',icon:'🎁',name:'Rakuten',earning:'💵 250-400€/an',desc:'International.',features:['Bonus 10€','Double cashback','3000+ marchands','Trimestriel'],trust:'✓ International',link:'https://www.rakuten.fr'},
+            {cat:'banque',icon:'🏦',name:'Boursorama',earning:'💵 150€ prime',desc:'Banque N°1.',features:['Prime 150€','Carte gratuite','Appli','Parrain 130€'],trust:'✓ N°1 France',link:'https://www.boursorama.com'},
+            {cat:'banque',icon:'🚀',name:'Revolut',earning:'💵 Cashback',desc:'Néobanque cashback.',features:['Cashback quotidien','Gratuit','Multi-devises','Crypto'],trust:'✓ 30M+ clients',link:'https://www.revolut.com'},
+            {cat:'marche',icon:'👟',name:'Weward',earning:'💵 10-30€/mois',desc:'N°1 marche payée!',features:['0,01€/1500 pas','Défis quotidiens','Tirages','PayPal 10€'],trust:'✓ 10M+',link:'https://www.weward.fr'},
+            {cat:'marche',icon:'🚶',name:'Macadam',earning:'💵 5-20€/mois',desc:'Marche FR!',features:['Points/pas','Boutique','Française','Facile'],trust:'✓ Made in FR',link:'https://www.macadam-app.fr'},
+            {cat:'taches',icon:'🚗',name:'Uber Driver',earning:'💵 1000-3000€/mois',desc:'Chauffeur VTC.',features:['Horaires flexibles','Paiement hebdo','Bonus','App'],trust:'✓ Leader',link:'https://www.uber.com/fr/fr/drive/'},
+            {cat:'jeux',icon:'🎲',name:'Mistplay',earning:'💵 50-100€/mois',desc:'Payé pour jouer!',features:['Jouez gagnez','Centaines jeux','Amazon/PayPal','iOS/Android'],trust:'✓ 20M+',link:'https://www.mistplay.com'},
+            {cat:'freelance',icon:'💼',name:'Upwork',earning:'💵 500-5000€/mois',desc:'Plus grande plateforme.',features:['Millions missions','Tous secteurs','Protégés','Réputation'],trust:'✓ 18M+',link:'https://www.upwork.com'},
+            {cat:'investissement',icon:'📈',name:'Trade Republic',earning:'💵 2.5%+gains',desc:'Actions+épargne.',features:['0€ frais','2.5% épargne','Fractionnées','Moderne'],trust:'✓ Régulé',link:'https://www.traderepublic.com'},
+            {cat:'revente',icon:'📦',name:'Vinted',earning:'💵 100-500€/mois',desc:'Vêtements occasion.',features:['Vente gratuite','Protection','Envoi simple','75M+ membres'],trust:'✓ N°1 Europe',link:'https://www.vinted.fr'}
+        ];
+
+        let stats = {};
+
+        function loadStats() {
+            try { stats = JSON.parse(localStorage.getItem('clickStats') || '{}'); } catch(e) {}
+        }
+
+        function saveStats() {
+            try { localStorage.setItem('clickStats', JSON.stringify(stats)); } catch(e) {}
+        }
+
+        function trackClick(n,c) {
+            const d = new Date().toLocaleDateString('fr-FR');
+            if(!stats[n]) stats[n] = {totalClicks:0,lastClickDate:d,category:c};
+            stats[n].totalClicks++;
+            stats[n].lastClickDate = d;
+            saveStats();
+        }
+
+        function toggleDashboard() {
+            const m = document.getElementById('dashboardModal');
+            m.classList.toggle('active');
+            if(m.classList.contains('active')) updateDashboard();
+        }
+
+        function updateDashboard() {
+            const d = new Date().toLocaleDateString('fr-FR');
+            let total=0,today=0,top='-',max=0;
+            for(const [site,data] of Object.entries(stats)) {
+                total+=data.totalClicks;
+                if(data.lastClickDate===d) today+=data.totalClicks;
+                if(data.totalClicks>max) {max=data.totalClicks;top=site;}
+            }
+            document.getElementById('totalClicks').textContent=total;
+            document.getElementById('todayClicks').textContent=today;
+            document.getElementById('topSite').textContent=top;
+            document.getElementById('avgConversion').textContent=total>0?'15%':'0%';
+            const tbody=document.getElementById('statsBody');
+            tbody.innerHTML='';
+            const sorted=Object.entries(stats).sort((a,b)=>b[1].totalClicks-a[1].totalClicks);
+            if(sorted.length===0) {
+                tbody.innerHTML='<tr><td colspan="4" style="text-align:center;padding:30px;color:#999">Aucune donnée</td></tr>';
+            } else {
+                sorted.forEach(([site,data])=>{
+                    const row=document.createElement('tr');
+                    row.innerHTML=`<td><strong>${site}</strong></td><td>${getCatName(data.category)}</td><td><span class="click-count">${data.totalClicks}</span></td><td>${data.lastClickDate}</td>`;
+                    tbody.appendChild(row);
+                });
+            }
+        }
+
+        function exportData() {
+            let csv='Site,Catégorie,Clics,Dernier Clic\n';
+            for(const [site,data] of Object.entries(stats)) {
+                csv+=`"${site}","${getCatName(data.category)}",${data.totalClicks},"${data.lastClickDate}"\n`;
+            }
+            const blob=new Blob([csv],{type:'text/csv'});
+            const url=window.URL.createObjectURL(blob);
+            const a=document.createElement('a');
+            a.href=url;
+            a.download='stats-'+new Date().toISOString().split('T')[0]+'.csv';
+            a.click();
+            window.URL.revokeObjectURL(url);
+        }
+
+        function getCatName(c) {
+            const n={'sondages':'Sondages','cashback':'Cashback','taches':'Tâches','jeux':'Jeux','freelance':'Freelance','banque':'Banques','marche':'Marche','investissement':'Investissement','revente':'Revente'};
+            return n[c]||c;
+        }
+
+        function createCards(cat) {
+            const container=document.getElementById('cardsContainer');
+            container.innerHTML='';
+            const filtered=cat==='tous'?sites:sites.filter(s=>s.cat===cat);
+            filtered.forEach(s=>{
+                const card=document.createElement('div');
+                card.className='card';
+                card.innerHTML=`
+                    <div class="card-header">
+                        <div class="card-icon">${s.icon}</div>
+                        <div class="card-title-section">
+                            <h3>${s.name}</h3>
+                            <span class="card-category">${getCatName(s.cat)}</span>
+                        </div>
+                    </div>
+                    <div class="earning-badge">${s.earning}</div>
+                    <p>${s.desc}</p>
+                    <div class="features"><ul>${s.features.map(f=>'<li>'+f+'</li>').join('')}</ul></div>
+                    <span class="trust-badge">${s.trust}</span>
+                    <a href="${s.link}" class="card-link" target="_blank" rel="noopener noreferrer" onclick="trackClick('${s.name}','${s.cat}');return true;">🚀 Accéder</a>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function filterCategory(cat) {
+            document.querySelectorAll('.category-btn').forEach(btn=>{
+                btn.classList.remove('active');
+                if(btn.getAttribute('data-category')===cat) btn.classList.add('active');
+            });
+            createCards(cat);
+        }
+
+        loadStats();
+        createCards('tous');
+    </script>
+</body>
+</html>
